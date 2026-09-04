@@ -209,10 +209,12 @@ __marimo__/
 # macOS system files
 .DS_Store
 
-fetched_isrcs.txt
-.parquet
+# project progress
+.docx
 
 # Data files
 *.parquet
 data/raw/
 notebooks/data/
+data/metadata
+fetched_isrcs.txt
