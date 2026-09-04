@@ -121,7 +121,23 @@ Spotify_Stream_Predictor/
 └─ shap_summary_plot.png   # SHAP Summary Plot
 └─ model.pkl               # Serialized Model
 ```
-
+                    DATA
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+     ReccoBeats             Chartmetric
+          │                     │
+    Audio features        Artist/platform data
+          │                     │
+          └──────────┬──────────┘
+                     │
+             Feature Engineering
+                     │
+                Preprocessing
+                     │
+                  XGBoost
+                     │
+             Predicted streams
 ## 🚀 How to Run Locally
 ```bash
 # Clone the repo
