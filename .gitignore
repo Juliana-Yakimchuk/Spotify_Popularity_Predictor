@@ -211,6 +211,7 @@ __marimo__/
 
 # project progress
 *.docx
+*.docx#
 ~$*
 .history/
 
