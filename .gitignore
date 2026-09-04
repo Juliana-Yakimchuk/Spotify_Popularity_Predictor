@@ -210,7 +210,9 @@ __marimo__/
 .DS_Store
 
 # project progress
-.docx
+*.docx
+~$*
+.history/
 
 # Data files
 *.parquet
